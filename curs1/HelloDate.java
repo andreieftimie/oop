@@ -1,8 +1,10 @@
 package curs1;
 import java.util.*;
 
+import curs1.subfolder.*;
+
 public class HelloDate {
   public static void main(String[] args) {
-    System.out.println("Hello, it’s: ");
+    HelloWorld.main(args);
     System.out.println(new Date());
 } }
